@@ -1,0 +1,29 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.current-price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.current-price span:first-child {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.discount {
+  background: #ffede0;
+  color: orange;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}

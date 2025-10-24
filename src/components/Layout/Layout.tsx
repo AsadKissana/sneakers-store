@@ -1,15 +1,15 @@
-import type { ReactNode } from "react";
+import "./Layout.css";
+
 import Navbar from "../Navbar/Navbar";
 import "./Layout.css";
 
-interface LayoutProps {
-  children: ReactNode;
-}
-
-const Layout = ({ children }: LayoutProps) => (
+const Layout = () => (
   <div className="layout">
     <Navbar />
-    <main className="layout-content">{children}</main>
+    <main className="layout-content">
+      <h2>Welcome to Sneakers Store!</h2>
+      <p>This is the main content area.</p>
+    </main>
   </div>
 );
 

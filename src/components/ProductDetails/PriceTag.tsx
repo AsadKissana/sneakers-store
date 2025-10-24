@@ -1,11 +1,10 @@
 import "./PriceTag.css";
 
-interface Props {
-  price: number;
-  discount: number;
-}
+// Local price and discount for demonstration
+const price = 250;
+const discount = 50;
 
-const PriceTag = ({ price, discount }: Props) => {
+const PriceTag = () => {
   const final = price - (price * discount) / 100;
   return (
     <div className="price">

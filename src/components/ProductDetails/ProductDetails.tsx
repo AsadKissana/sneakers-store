@@ -1,4 +1,4 @@
-import { Product } from "../../types/product";
+import type { Product } from "../../types/product";
 import PriceTag from "./PriceTag";
 import QuantitySelector from "./QuantitySelector";
 import AddToCartButton from "./AddToCartButton";

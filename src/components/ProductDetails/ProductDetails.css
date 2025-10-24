@@ -1,0 +1,31 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.company-name {
+  text-transform: uppercase;
+  color: orange;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-description {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.purchase-section {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
